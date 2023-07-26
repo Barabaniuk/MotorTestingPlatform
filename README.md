@@ -2,6 +2,7 @@
 Mobile platform for testing electric motors. Allows you to control the movement of the platform in real time, which moves along the test route and take parameters from the sensors. One or two DC motors or one stepper motor can be tested on the platform
 
 The data is transferred to a PC using bluetooth. To process data from sensors and control the system, a separate desktop application is used 
+
 ![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Control_window_empty.jpg)
 
 
@@ -35,6 +36,7 @@ The data is transferred to a PC using bluetooth. To process data from sensors an
 
 ## Components:
 ![Mobile platform circuit diagram](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Circuit_diagramEN.jpg)
+
 System contains following components:
 * Aduino UNO controller
 * Motor controller 2x15A
@@ -50,6 +52,7 @@ General view on platform:
 
 ![Mobile platform for testing electric motors assembled](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Photo_1.jpg)
 ![Mobile platform for testing electric motors top view](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Photo_2.jpg)
+
 Example of output window during testing:
 
 ![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Control_window_inwork.jpg)
