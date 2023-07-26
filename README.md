@@ -2,7 +2,7 @@
 Mobile platform for testing electric motors. Allows you to control the movement of the platform in real time, which moves along the test route and take parameters from the sensors. One or two DC motors or one stepper motor can be tested on the platform
 
 The data is transferred to a PC using bluetooth. To process data from sensors and control the system, a separate desktop application is used 
-
+Main window of control application:
 ![Main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Control_window_empty.jpg)
 
 
