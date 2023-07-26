@@ -50,12 +50,13 @@ System contains following components:
 ## Control application
 System connected to desktop control application (OS Windows, .Net) 
 [Platfrom control application](Control_application/Motor_testing_platform.Control_application.exe)
+
 Data transferred via bluetooth or wired connection with emulation of COM port
 Main view on platform control application
-![Main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Control_applicatipon/Motor_testing_platform.Control_window_empty.jpg)
+![Main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Control_application/Motor_testing_platform.Control_window_empty.jpg)
 
 Example of output window during testing:
-![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Control_applicatipon/Motor_testing_platform.Control_window_inwork.jpg)
+![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Control_application/Motor_testing_platform.Control_window_inwork.jpg)
 
 ## Gallery
 General view on platform:
