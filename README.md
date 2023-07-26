@@ -55,7 +55,8 @@ System contains following components:
 
 ## Control application
 System connected to desktop control application (OS Windows, .Net) 
-Main functions:
+
+Main functions of control application:
 * Real-time output of sensor readings:
   - The frequency of rotation of the motor shaft, the number of revolutions made by it;
   - Voltage, current and power consumed by the motor
