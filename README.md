@@ -1,6 +1,6 @@
 # MotorTestingPlatform
 Mobile platform for testing electric motors. Allows you to control the movement of the platform in real time, which moves along the test route and take parameters from the sensors. One or two DC motors or one stepper motor can be tested on the platform
-
+Platform equipped with optical sensor which control movement using black/white stripes on the track
 The data is transferred to a PC using bluetooth. To process data from sensors and control the system, a separate desktop application is used 
 
 ## Main system parameters:
@@ -20,11 +20,17 @@ The data is transferred to a PC using bluetooth. To process data from sensors an
 * Accuracy of platform speed determination – up to 50 mm/s
 
 ## Functions:
-* Real-time output of sensor readings:
-  - The frequency of rotation of the motor shaft, the number of revolutions made by it;
-  - Voltage, current and power consumed by the motor
-  - Linear movement of the platform, its speed and acceleration.
-* Platform control:
+* Testing of elecrical motors for different conditions 
+* Real-time control of different parameters:
+  - requency of rotation of the motor shaft
+  - number of revolutions made by it
+  - voltage
+  - current
+  - power consumed by the motor
+  - linear movement of the platform (based on optical sensor)
+  - speed of platfrom
+  - acceleration
+* Real time control:
   - start or stop any of the engines
   - regulate their speed in automatic or manual mode
   - control the light indicators on the platform
@@ -49,6 +55,19 @@ System contains following components:
 
 ## Control application
 System connected to desktop control application (OS Windows, .Net) 
+Main functions:
+* Real-time output of sensor readings:
+  - The frequency of rotation of the motor shaft, the number of revolutions made by it;
+  - Voltage, current and power consumed by the motor
+  - Linear movement of the platform, its speed and acceleration.
+* Platform control:
+  - start or stop any of the engines
+  - regulate their speed in automatic or manual mode
+  - control the light indicators on the platform
+* Recording a log of sensor readings with an adjustable frequency of up to 20 polls per second.
+* Log output both in textual or tabular form, and as a graph
+* Ability to save a log of sensor readings in text form for subsequent use in calculations (Excel, mathematical packages MatCAD, MatLab)
+* Ability to open previously saved logs.
 
 [Platfrom control application](ControlApplication/Motor_testing_platform.Control_application.exe)
 
