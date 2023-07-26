@@ -47,9 +47,11 @@ System contains following components:
 
 ## Platform in use
 General view on platform:
+
 ![Mobile platform for testing electric motors assembled](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Photo_1.jpg)
 ![Mobile platform for testing electric motors top view](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Photo_2.jpg)
 Example of output window during testing:
+
 ![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Control_window_inwork.jpg)
 
 
