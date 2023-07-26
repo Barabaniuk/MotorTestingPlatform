@@ -33,8 +33,8 @@ The data is transferred to a PC using bluetooth. To process data from sensors an
 * Ability to save a log of sensor readings in text form for subsequent use in calculations (Excel, mathematical packages MatCAD, MatLab)
 * Ability to open previously saved logs.
 
-## Circuit diagram:
-![Mobile platform circuit diagram](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Circuit/Motor_testing_platform.Circuit_diagramEN.jpg)
+## Wiring diagram:
+![Mobile platform wiring diagram](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/WiringDiagram/Motor_testing_platform.Wiring_diagramEN.jpg)
 
 ## Components:
 System contains following components:
@@ -50,15 +50,15 @@ System contains following components:
 ## Control application
 System connected to desktop control application (OS Windows, .Net) 
 
-[Platfrom control application](Control_application/Motor_testing_platform.Control_application.exe)
+[Platfrom control application](ControlApplication/Motor_testing_platform.Control_application.exe)
 
 Data transferred via bluetooth or wired connection with emulation of COM port
 
 Main view on platform control application:
-![Main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Control_application/Motor_testing_platform.Control_window_empty.jpg)
+![Main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/ControlApplication/Motor_testing_platform.Control_window_empty.jpg)
 
 Example of output window during testing:
-![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Control_application/Motor_testing_platform.Control_window_inwork.jpg)
+![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/ControlApplication/Motor_testing_platform.Control_window_inwork.jpg)
 
 ## Gallery
 General view on platform:
