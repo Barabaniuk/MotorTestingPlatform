@@ -3,10 +3,6 @@ Mobile platform for testing electric motors. Allows you to control the movement 
 
 The data is transferred to a PC using bluetooth. To process data from sensors and control the system, a separate desktop application is used 
 
-Main window of control application:
-![Main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Control_window_empty.jpg)
-
-
 ## Main system parameters:
 * Number of tested DC motors - 2
 * Number of tested stepper motors - 1
@@ -28,14 +24,17 @@ Main window of control application:
   - The frequency of rotation of the motor shaft, the number of revolutions made by it;
   - Voltage, current and power consumed by the motor
   - Linear movement of the platform, its speed and acceleration.
-* Platform control: start or stop any of the engines, regulate their speed in automatic or manual mode, control the light indicators on the platform
+* Platform control:
+  - start or stop any of the engines
+  - regulate their speed in automatic or manual mode
+  - control the light indicators on the platform
 * Recording a log of sensor readings with an adjustable frequency of up to 20 polls per second.
 * Log output both in textual or tabular form, and as a graph
 * Ability to save a log of sensor readings in text form for subsequent use in calculations (Excel, mathematical packages MatCAD, MatLab)
 * Ability to open previously saved logs.
 
 ## Circuit diagram:
-![Mobile platform circuit diagram](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Circuit_diagramEN.jpg)
+![Mobile platform circuit diagram](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Circuit/Motor_testing_platform.Circuit_diagramEN.jpg)
 
 ## Components:
 System contains following components:
@@ -48,13 +47,22 @@ System contains following components:
 * Bluetooth adapter for computer
 * Connectors, wires, connectors, components
 
-## Gallery
-General view on platform:
-![Mobile platform for testing electric motors assembled](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Photo_1.jpg)
-![Mobile platform for testing electric motors top view](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Photo_2.jpg)
+## Control application
+System connected to desktop control application (OS Windows, .Net) 
+[Platfrom control application](Control application/Motor_testing_platform.Control_application.exe)
+Data transferred via bluetooth or wired connection with emulation of COM port
+Main view on platform control application
+![Main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Control applicatipon/Motor_testing_platform.Control_window_empty.jpg)
 
 Example of output window during testing:
-![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Motor_testing_platform.Control_window_inwork.jpg)
+![main window of control application](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Control applicatipon/Motor_testing_platform.Control_window_inwork.jpg)
+
+## Gallery
+General view on platform:
+![Mobile platform for testing electric motors assembled](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Photo/Motor_testing_platform.Photo_1.jpg)
+![Mobile platform for testing electric motors top view](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/Photo/Motor_testing_platform.Photo_2.jpg)
+
+
 
 
 
