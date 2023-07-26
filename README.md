@@ -3,7 +3,7 @@ Mobile platform for testing electric motors. Allows you to control the movement 
 The data is transferred to a PC using bluetooth. To process data from sensors and control the system, a separate desktop application is used 
 
 ## Main system parameters:
-Number of tested DC motors - 2
+* Number of tested DC motors - 2
 * Number of tested stepper motors - 1
 * Rated voltage of motors – 6-13.8 V
 * Rated current on the motor - 15A
