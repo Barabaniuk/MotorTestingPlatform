@@ -34,7 +34,7 @@ The data is transferred to a PC using bluetooth. To process data from sensors an
 * Ability to open previously saved logs.
 
 ## Wiring diagram:
-![Mobile platform wiring diagram](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/WiringDiagram/Motor_testing_platform.Wiring_diagramEN.jpg)
+![Mobile platform wiring diagram](https://github.com/Barabaniuk/MotorTestingPlatform/blob/main/WiringDiagram/Motor_testing_platform.WiringDiagramEN.jpg)
 
 ## Components:
 System contains following components:
